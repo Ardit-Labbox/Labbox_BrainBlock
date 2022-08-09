@@ -1,0 +1,42 @@
+{
+    "packages": [
+      {
+        "name": "BrainBlock",
+        "maintainer": "Ardit Haxhikadrija",
+        "websiteURL": "https://github.com/Ardit-Labbox",
+        "email": "ardit@labbox.education",
+        "help": {
+          "online": "https://github.com/Ardit-Labbox"
+        },
+        "platforms": [
+          {
+            "name": "Labbox_BrainBlock",
+            "architecture": "arm",
+            "version": "1.0.0",
+            "category": "BRAINBLOCK",
+            "help": {
+              "online": "https://github.com/Ardit-Labbox"
+            },
+            "url": "https://github.com/Ardit-Labbox/Labbox_BrainBlock/blob/master/BrainBlock.zip",
+            "archiveFileName": "brainblock-1.0.0.zip",
+            "checksum": "SHA-256:129b48bccebc2150ccec4ce6bdd367e42dade861dd6aad5c0e362ac995e922f3",
+            "size": "15,913",
+            "boards": [{ "name": "BrainBlock" }],
+            "toolsDependencies": [
+              {
+                "packager": "arduino",
+                "name": "avr-gcc",
+                "version": "4.8.1-arduino5"
+              },
+              {
+                "packager": "arduino",
+                "name": "avrdude",
+                "version": "6.0.1-arduino5"
+              }
+            ]
+          }
+        ],
+        "tools": []
+      }
+    ]
+  }
